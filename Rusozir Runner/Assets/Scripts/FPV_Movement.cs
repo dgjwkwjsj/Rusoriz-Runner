@@ -3,7 +3,7 @@ using UnityEngine;
 public class FPV_Movement : MonoBehaviour
 {
     [SerializeField] private Rigidbody rb;
-    [SerializeField] private FixedJoystick joystick;
+    [SerializeField] private DynamicJoystick joystick;
     [SerializeField] private float speed = 5f;
 
 

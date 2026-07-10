@@ -611,12 +611,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: leg left toe
       parentName: leg left ankle
-      position: {x: -0.00000076870026, y: -0.000009714709, z: 0.0000146668945}
+      position: {x: -0.00000076870026, y: -0.000009714709, z: 0.000014666895}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: leg right thigh
       parentName: unused root
-      position: {x: 0.000009958288, y: 0, z: 1.00582815e-11}
+      position: {x: 0.000009958288, y: 0, z: 1.0058282e-11}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: leg right knee
@@ -636,12 +636,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: spine 1
       parentName: unused root
-      position: {x: -0, y: 0.000008562107, z: -0.000007632702}
+      position: {x: -0, y: 0.000008562108, z: -0.000007632702}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: spine 2
       parentName: spine 1
-      position: {x: -0, y: 0.000010193002, z: -0.00000084991984}
+      position: {x: -0, y: 0.000010193002, z: -0.0000008499198}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: spine 3
@@ -661,7 +661,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm left shoulder 2
       parentName: arm left shoulder 1
-      position: {x: -0.00001481083, y: -0.0000043259975, z: 0.00000008556992}
+      position: {x: -0.00001481083, y: -0.0000043259975, z: 0.00000008556993}
       rotation: {x: -0.0000006596858, y: 0.024671422, z: -0.40066603, w: 0.91589195}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left elbow
@@ -671,12 +671,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm left wrist
       parentName: arm left elbow
-      position: {x: -0.000018666495, y: -0.000022730004, z: 0.0000007197403}
+      position: {x: -0.000018666495, y: -0.000022730002, z: 0.0000007197402}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 1a
       parentName: arm left wrist
-      position: {x: 0.0000002113998, y: -0.0000013409972, z: 0.00000251505}
+      position: {x: 0.00000021139981, y: -0.0000013409972, z: 0.00000251505}
       rotation: {x: -0.06504234, y: -0.121206455, z: -0.13405849, w: 0.9813801}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 1b
@@ -691,17 +691,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 2a
       parentName: arm left wrist
-      position: {x: -0.0000067073047, y: -0.000006885807, z: 0.0000026986}
+      position: {x: -0.0000067073047, y: -0.0000068858076, z: 0.0000026986}
       rotation: {x: 0.049756255, y: -0.042843737, z: -0.27882954, w: 0.95809335}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 2b
       parentName: arm left finger 2a
-      position: {x: -0.00000007249714, y: -0.000004359996, z: 0.0000006570001}
+      position: {x: -0.00000007249714, y: -0.000004359996, z: 0.0000006570002}
       rotation: {x: -0.013154476, y: -0.029038504, z: -0.19415726, w: 0.9804523}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 2c
       parentName: arm left finger 2b
-      position: {x: 0.0000013054014, y: -0.0000027364017, z: 0.00000032081974}
+      position: {x: 0.0000013054014, y: -0.0000027364017, z: 0.00000032081977}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 3a
@@ -711,7 +711,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 3b
       parentName: arm left finger 3a
-      position: {x: -0.0000001501024, y: -0.0000048878023, z: 0.00000016554965}
+      position: {x: -0.0000001501024, y: -0.000004887802, z: 0.00000016554964}
       rotation: {x: -0.014956975, y: -0.013254173, z: -0.40488628, w: 0.9141486}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 3c
@@ -731,32 +731,32 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 4c
       parentName: arm left finger 4b
-      position: {x: 0.000002622104, y: -0.0000022745012, z: 0.000000024049731}
+      position: {x: 0.0000026221037, y: -0.0000022745012, z: 0.000000024049731}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 5a
       parentName: arm left wrist
-      position: {x: -0.0000037033024, y: -0.0000064711103, z: -0.000004984021}
+      position: {x: -0.0000037033024, y: -0.0000064711107, z: -0.000004984021}
       rotation: {x: -0.076889366, y: 0.06844989, z: -0.1784106, w: 0.9785563}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 5b
       parentName: arm left finger 5a
-      position: {x: -0.0000007591008, y: -0.0000033308984, z: -0.00000095079923}
+      position: {x: -0.00000075910077, y: -0.0000033308984, z: -0.00000095079923}
       rotation: {x: 0.09332091, y: 0.1027239, z: -0.43437478, w: 0.8899762}
       scale: {x: 1, y: 1, z: 1}
     - name: arm left finger 5c
       parentName: arm left finger 5b
-      position: {x: 0.0000015047013, y: -0.0000016321005, z: -0.00000006270111}
+      position: {x: 0.0000015047013, y: -0.0000016321004, z: -0.00000006270111}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused j_pinkypalm_l item_Russian Body 2
       parentName: arm left wrist
-      position: {x: -0.0000010387005, y: -0.000002162993, z: -0.00000248695}
+      position: {x: -0.0000010387006, y: -0.000002162993, z: -0.00000248695}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused j_ringpalm_l item_Russian Body 2
       parentName: arm left wrist
-      position: {x: -0.0000015812038, y: -0.000002252996, z: -0.00000078569053}
+      position: {x: -0.000001581204, y: -0.000002252996, z: -0.0000007856905}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.anim_attachment_lh item_Russian Body 2
@@ -776,22 +776,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm right shoulder 2
       parentName: arm right shoulder 1
-      position: {x: 0.000014810718, y: -0.0000043259975, z: 0.000000085400046}
+      position: {x: 0.000014810719, y: -0.0000043259975, z: 0.000000085400046}
       rotation: {x: 0.00000065967777, y: -0.02467225, z: 0.40066117, w: 0.9158941}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right elbow
       parentName: arm right shoulder 2
-      position: {x: 0.0000193016, y: -0.000022830995, z: -0.0000014059389}
+      position: {x: 0.0000193016, y: -0.000022830995, z: -0.000001405939}
       rotation: {x: 0.002316188, y: 0.0019825383, z: 0.0025378612, w: 0.99999213}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right wrist
       parentName: arm right elbow
-      position: {x: 0.000018667199, y: -0.000022730004, z: 0.000000719659}
+      position: {x: 0.000018667199, y: -0.000022730002, z: 0.000000719659}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 1a
       parentName: arm right wrist
-      position: {x: -0.00000021129844, y: -0.0000013409972, z: 0.00000251505}
+      position: {x: -0.00000021129846, y: -0.0000013409972, z: 0.00000251505}
       rotation: {x: -0.065044254, y: 0.12120934, z: 0.1340624, w: 0.9813791}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 1b
@@ -801,12 +801,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 1c
       parentName: arm right finger 1b
-      position: {x: 0.0000008714021, y: -0.0000039610036, z: -0.000000009870997}
+      position: {x: 0.00000087140205, y: -0.0000039610036, z: -0.000000009870997}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 2a
       parentName: arm right wrist
-      position: {x: 0.0000067074, y: -0.000006885807, z: 0.0000026985595}
+      position: {x: 0.0000067074, y: -0.0000068858076, z: 0.0000026985595}
       rotation: {x: 0.049758915, y: 0.042845596, z: 0.27883244, w: 0.9580923}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 2b
@@ -826,7 +826,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 3b
       parentName: arm right finger 3a
-      position: {x: 0.00000015000106, y: -0.0000048878023, z: 0.00000016553994}
+      position: {x: 0.00000015000106, y: -0.000004887802, z: 0.00000016553994}
       rotation: {x: -0.014953285, y: 0.01325364, z: 0.40488395, w: 0.9141498}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 3c
@@ -846,7 +846,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 4c
       parentName: arm right finger 4b
-      position: {x: -0.0000026220978, y: -0.0000022745012, z: 0.000000024079531}
+      position: {x: -0.0000026220976, y: -0.0000022745012, z: 0.000000024079531}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 5a
@@ -856,12 +856,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 5b
       parentName: arm right finger 5a
-      position: {x: 0.0000007591963, y: -0.0000033308027, z: -0.0000009508}
+      position: {x: 0.0000007591963, y: -0.0000033308027, z: -0.0000009507999}
       rotation: {x: 0.09332486, y: -0.102727495, z: 0.43438858, w: 0.88996863}
       scale: {x: 1, y: 1, z: 1}
     - name: arm right finger 5c
       parentName: arm right finger 5b
-      position: {x: -0.0000015046955, y: -0.0000016321005, z: -0.00000006269961}
+      position: {x: -0.0000015046955, y: -0.0000016321004, z: -0.00000006269962}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused j_pinkypalm_ri item_Russian Body 2
@@ -871,12 +871,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: unused j_ringpalm_ri item_Russian Body 2
       parentName: arm right wrist
-      position: {x: 0.0000015811979, y: -0.000002252996, z: -0.00000078568917}
+      position: {x: 0.0000015811978, y: -0.000002252996, z: -0.0000007856892}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.anim_attachment_rh item_Russian Body 2
       parentName: arm right wrist
-      position: {x: 0.000004061902, y: -0.000005016107, z: 0.0000049476225}
+      position: {x: 0.000004061902, y: -0.000005016107, z: 0.000004947623}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_ulna item_Russian Body 2
@@ -891,13 +891,13 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: unused head root
       parentName: head neck lower
-      position: {x: -0.00000019999989, y: -0.00006160101, z: 0.000007713659}
+      position: {x: -0.00000019999987, y: -0.00006160101, z: 0.000007713659}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_thigh item_Russian Head #3 item_Russian Body
         2
       parentName: unused head root
-      position: {x: -0.0000103166985, y: 0, z: 0}
+      position: {x: -0.000010316699, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_calf item_Russian Head #3 item_Russian Body
@@ -918,40 +918,40 @@ ModelImporter:
         2
       parentName: unused valvebiped.bip01_l_foot item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.0000007963002, y: -0.000010064394, z: 0.00001519481}
+      position: {x: -0.0000007963002, y: -0.000010064394, z: 0.000015194811}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_thigh item_Russian Head #3 item_Russian Body
         2
       parentName: unused head root
-      position: {x: 0.0000103166985, y: 0, z: 0}
+      position: {x: 0.000010316699, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_calf item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_thigh item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000002466999, y: -0.00004726551, z: -0.00000245242}
+      position: {x: 0.00000024669993, y: -0.000047265512, z: -0.00000245242}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_foot item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_calf item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.00000022820012, y: -0.0000436592, z: -0.0000037657292}
+      position: {x: 0.00000022820014, y: -0.0000436592, z: -0.0000037657292}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_toe0 item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_foot item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000007964001, y: -0.000010064334, z: 0.00001519481}
+      position: {x: 0.0000007964001, y: -0.000010064334, z: 0.000015194811}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_spine item_Russian Head #3 item_Russian Body
         2
       parentName: unused head root
-      position: {x: -0, y: 0.000008870999, z: -0.000007907441}
+      position: {x: -0, y: 0.000008871, z: -0.000007907442}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_spine1 item_Russian Head #3 item_Russian Body
@@ -972,7 +972,7 @@ ModelImporter:
         2
       parentName: unused valvebiped.bip01_spine2 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -1.38999905e-11, y: 0.000023655995, z: -0.00000034781993}
+      position: {x: -1.389999e-11, y: 0.000023655997, z: -0.00000034781993}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: head neck upper
@@ -988,7 +988,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: unused goggles item_Russian Head #3 item_Russian Body 2
       parentName: head part
-      position: {x: 0.0000007000163, y: 0.000005425, z: 0.0000032488103}
+      position: {x: 0.0000007000163, y: 0.000005425, z: 0.0000032488101}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused helmet item_Russian Head #3 item_Russian Body 2
@@ -1014,28 +1014,28 @@ ModelImporter:
         2
       parentName: unused valvebiped.bip01_l_upperarm item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.000020092697, y: -0.000023571003, z: -0.0000014479987}
+      position: {x: -0.000020092699, y: -0.000023571003, z: -0.0000014479987}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_hand item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_l_forearm item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.000017902203, y: -0.000022100005, z: 0.00000061920946}
+      position: {x: -0.000017902203, y: -0.000022100006, z: 0.00000061920946}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger0 item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_l_hand item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.0000016102018, y: -0.0000015949962, z: 0.0000032512992}
+      position: {x: -0.0000016102018, y: -0.0000015949961, z: 0.0000032512992}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger01 item_Russian Head #3 item_Russian
         Body 2
       parentName: unused valvebiped.bip01_l_finger0 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.0000001116991, y: -0.0000027449964, z: 0.0000035342525}
+      position: {x: -0.000000111699094, y: -0.0000027449967, z: 0.0000035342525}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger02 item_Russian Head #3 item_Russian
@@ -1084,28 +1084,28 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_l_finger21 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.0000014344874, y: -0.0000027792994, z: 0.00000015951993}
+      position: {x: -0.0000014344876, y: -0.0000027792994, z: 0.00000015951993}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger3 item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_l_hand item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.000006972803, y: -0.0000074109957, z: -0.0000015549197}
+      position: {x: -0.000006972803, y: -0.0000074109957, z: -0.0000015549198}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger31 item_Russian Head #3 item_Russian
         Body 2
       parentName: unused valvebiped.bip01_l_finger3 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.0000017983975, y: -0.0000035498977, z: -0.00000023413969}
+      position: {x: -0.0000017983975, y: -0.0000035498977, z: -0.0000002341397}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger32 item_Russian Head #3 item_Russian
         Body 2
       parentName: unused valvebiped.bip01_l_finger31 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.0000013114989, y: -0.0000028044994, z: -0.000000012340395}
+      position: {x: -0.000001311499, y: -0.0000028044994, z: -0.000000012340395}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger4 item_Russian Head #3 item_Russian Body
@@ -1119,7 +1119,7 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_l_finger4 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.000001280403, y: -0.000003072309, z: -0.0000006337702}
+      position: {x: -0.0000012804029, y: -0.0000030723088, z: -0.0000006337702}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_l_finger42 item_Russian Head #3 item_Russian
@@ -1147,7 +1147,7 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_spine4 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.000005138313, y: 0.000004938006, z: 0.0000034883185}
+      position: {x: 0.0000051383136, y: 0.000004938006, z: 0.0000034883185}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_upperarm item_Russian Head #3 item_Russian
@@ -1168,14 +1168,14 @@ ModelImporter:
         2
       parentName: unused valvebiped.bip01_r_forearm item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.000016735705, y: -0.000021424998, z: 0.0000016086203}
+      position: {x: 0.000016735705, y: -0.000021425, z: 0.0000016086203}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger0 item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_hand item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000019091015, y: -0.0000015799999, z: 0.0000030925298}
+      position: {x: 0.0000019091015, y: -0.0000015799999, z: 0.00000309253}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger01 item_Russian Head #3 item_Russian
@@ -1189,7 +1189,7 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_r_finger01 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.00000038470031, y: -0.000002653998, z: 0.0000014528902}
+      position: {x: 0.00000038470037, y: -0.000002653998, z: 0.0000014528902}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger1 item_Russian Head #3 item_Russian Body
@@ -1203,28 +1203,28 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_r_finger1 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000028517009, y: -0.0000034302, z: 0.00000017230028}
+      position: {x: 0.0000028517013, y: -0.0000034301997, z: 0.00000017230028}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger12 item_Russian Head #3 item_Russian
         Body 2
       parentName: unused valvebiped.bip01_r_finger11 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000010865987, y: -0.0000026147009, z: 0.00000020718988}
+      position: {x: 0.0000010865987, y: -0.0000026147009, z: 0.00000020718987}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger2 item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_hand item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.000007227099, y: -0.000007120001, z: -0.00000009334012}
+      position: {x: 0.0000072270996, y: -0.000007120001, z: -0.00000009334012}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger21 item_Russian Head #3 item_Russian
         Body 2
       parentName: unused valvebiped.bip01_r_finger2 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.000003010601, y: -0.0000032874943, z: -0.00000029082972}
+      position: {x: 0.000003010601, y: -0.0000032874943, z: -0.00000029082975}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger22 item_Russian Head #3 item_Russian
@@ -1245,14 +1245,14 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_r_finger3 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000021196013, y: -0.0000033468966, z: -0.00000050847905}
+      position: {x: 0.0000021196015, y: -0.0000033468966, z: -0.00000050847905}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger32 item_Russian Head #3 item_Russian
         Body 2
       parentName: unused valvebiped.bip01_r_finger31 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000011425019, y: -0.0000028699992, z: -0.00000009293034}
+      position: {x: 0.0000011425019, y: -0.0000028699994, z: -0.00000009293034}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_finger4 item_Russian Head #3 item_Russian Body
@@ -1273,28 +1273,28 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.bip01_r_finger41 item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000007697999, y: -0.000001700598, z: -0.0000002746202}
+      position: {x: 0.0000007697999, y: -0.0000017005981, z: -0.0000002746202}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_ulna item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_forearm item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.000009787805, y: -0.000011658001, z: 0.00000020067992}
+      position: {x: 0.000009787804, y: -0.000011658001, z: 0.0000002006799}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_r_wrist item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_r_forearm item_Russian Head #3 item_Russian
         Body 2
-      position: {x: 0.0000195757, y: -0.00002331599, z: 0.0000004013493}
+      position: {x: 0.000019575698, y: -0.00002331599, z: 0.00000040134927}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.weapon_bone item_Russian Head #3 item_Russian Body
         2
       parentName: unused valvebiped.bip01_spine item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -4.1001477e-11, y: -0.000111140165, z: 0.0000064999836}
+      position: {x: -4.1001477e-11, y: -0.000111140165, z: 0.000006499984}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.weapon_bone_rhand item_Russian Head #3 item_Russian
@@ -1308,7 +1308,7 @@ ModelImporter:
         Body 2
       parentName: unused valvebiped.weapon_bone_rhand item_Russian Head #3 item_Russian
         Body 2
-      position: {x: -0.000012942402, y: 0.0000004632, z: 0.0000066035495}
+      position: {x: -0.000012942402, y: 0.0000004632, z: 0.00000660355}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.weapon_bone_clip item_Russian Head #3 item_Russian
@@ -1320,7 +1320,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: unused valvebiped.bip01_head1 item_Russian Body 2
       parentName: head neck lower
-      position: {x: 4.7684613e-11, y: 0.000007722998, z: 0.0000050360004}
+      position: {x: 4.7684617e-11, y: 0.000007722998, z: 0.0000050360004}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: unused helmet_chin item_Russian Body 2
