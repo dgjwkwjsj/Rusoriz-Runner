@@ -3,15 +3,20 @@ using UnityEngine.UIElements;
 
 public class SectionTrigger : MonoBehaviour
 {
-
+    [SerializeField] private Transform roadPoint;
     [SerializeField] private GameObject roadSection;
-        
-       private void OnTriggerEnter(Collider other)
+
+    private bool hasSpawned = false;
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Trigger"))
+        if (other.gameObject.CompareTag("Player") && !hasSpawned)
         {
-            Instantiate(roadSection, new Vector3( 0f,0f,19.7f), Quaternion.identity);
-            Debug.Log("Road section instantiated");
+            hasSpawned = true;
+
+            Instantiate(roadSection, roadPoint.position, roadPoint.rotation);
+
+            Debug.Log("New road section spawned");
         }
     }
 }
