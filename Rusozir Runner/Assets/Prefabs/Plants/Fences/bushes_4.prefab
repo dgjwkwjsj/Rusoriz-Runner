@@ -270,9 +270,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 750198926721210862}
-  - component: {fileID: 5127830690195898997}
   - component: {fileID: -7093352907064197742}
   - component: {fileID: 5633613199686798059}
+  - component: {fileID: 3264965935847611405}
   m_Layer: 0
   m_Name: bushes_4
   m_TagString: Destroyer
@@ -297,18 +297,6 @@ Transform:
   - {fileID: 6120754851631170128}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5127830690195898997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5272136352402184171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0449d13e61a306f45826418dbc3581b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Section_Move
 --- !u!54 &-7093352907064197742
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -357,6 +345,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3264965935847611405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5272136352402184171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0449d13e61a306f45826418dbc3581b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Section_Move
+  section_speed: 1
+  acceleration: 0.1
+  maxSpeed: 10
 --- !u!1 &5506104962099283870
 GameObject:
   m_ObjectHideFlags: 0

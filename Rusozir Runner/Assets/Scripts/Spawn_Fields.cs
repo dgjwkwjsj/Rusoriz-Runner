@@ -15,8 +15,9 @@ public class Spawn_Fields : MonoBehaviour
         {
             isSpawnedFields = true;
             int randomIndex = Random.Range(0, obstaclePrefabs.Count);
+            int randomIndex2 = Random.Range(0, obstaclePrefabs.Count);
             Instantiate(obstaclePrefabs[randomIndex], spawnedPoint1.position, spawnedPoint1.rotation);
-            Instantiate(obstaclePrefabs[randomIndex], spawnedPoint2.position, spawnedPoint1.rotation);
+            Instantiate(obstaclePrefabs[randomIndex2], spawnedPoint2.position, spawnedPoint1.rotation);
             Debug.Log("Player entered the trigger and Fields spawned");
         }
     }
