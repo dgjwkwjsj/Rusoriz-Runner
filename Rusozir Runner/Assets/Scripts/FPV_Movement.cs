@@ -13,7 +13,7 @@ public class FPV_Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-       
+
 
         rb.linearVelocity = new Vector2(joystick.Horizontal * speed, joystick.Vertical * speed);
 
@@ -35,9 +35,9 @@ public class FPV_Movement : MonoBehaviour
             targetTilt = 0f;
         }
 
-        Quaternion  targetRotation = Quaternion.Euler(0f, 0f, targetTilt);
+        Quaternion targetRotation = Quaternion.Euler(0f, 0f, targetTilt);
 
         playerModel.localRotation = Quaternion.Slerp(playerModel.localRotation, targetRotation, titleSpeed * Time.fixedDeltaTime);
-        
     }
+
 }
