@@ -38,6 +38,8 @@ public class FPV_Movement : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(0f, 0f, targetTilt);
 
         playerModel.localRotation = Quaternion.Slerp(playerModel.localRotation, targetRotation, titleSpeed * Time.fixedDeltaTime);
+
+
     }
 
 }

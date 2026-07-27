@@ -11,4 +11,9 @@ public class RestartGame : MonoBehaviour
 
         SceneManager.LoadScene(currentSceneIndex);
     }
+    public void BackHome()
+    {
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1f;
+    }
 }
