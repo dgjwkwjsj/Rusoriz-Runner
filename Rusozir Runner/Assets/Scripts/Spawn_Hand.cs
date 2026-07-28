@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -11,7 +10,12 @@ public class Spawn_Hand : MonoBehaviour
     {
         foreach (Transform point in SpawnHand)
         {
-            Instantiate(HandPrefab, point.position, point.rotation);
+            Instantiate(
+                HandPrefab,
+                point.position,
+                point.rotation,
+                transform
+            );
         }
     }
 }

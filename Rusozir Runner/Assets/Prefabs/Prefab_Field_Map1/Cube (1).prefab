@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 5814153293596201961}
   - component: {fileID: 118828474576069059}
   - component: {fileID: 3676630444254074283}
+  - component: {fileID: 3725898594658715092}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Destroyer
@@ -124,8 +125,8 @@ Transform:
   m_GameObject: {fileID: 2123593848154216997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
-  m_LocalScale: {x: 6, y: 0.1, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 25}
+  m_LocalScale: {x: 6, y: 0.1, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4529238999194445886}
@@ -226,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0449d13e61a306f45826418dbc3581b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Section_Move
-  Current_speed: 1
+  Current_speed: 2
   acceleration: 0.1
   max_speed: 100
   moveDirection: {x: 0, y: 0, z: -1}
@@ -270,13 +271,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawn_Fields
   obstaclePrefabs:
-  - {fileID: 4871712269870635929, guid: 134388e8b5e1c0947b758bfd4094a3e9, type: 3}
+  - {fileID: 1717290627797896631, guid: 0c8a72deb6f68e641bdbe1826a190940, type: 3}
   - {fileID: 5890106710836386870, guid: ec556f2ddafcb6a41997b31de01cbe3c, type: 3}
   - {fileID: 3402924011829611322, guid: 238c74bb22d24914d96763e52557e46d, type: 3}
   - {fileID: 7519664663750129681, guid: 98b81ba6f69f7064e845d705e4417eb2, type: 3}
   - {fileID: 532750990964994800, guid: 1c07f4f785cd5d74396c0570f5537e24, type: 3}
   spawnedPoint1: {fileID: 3270325865771031494}
   spawnedPoint2: {fileID: 6677462242870378303}
+--- !u!114 &3725898594658715092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123593848154216997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e520eafcda03d4fa676f7e05f56175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game_Over
+  gameOverScreen: {fileID: 0}
 --- !u!1 &3057121825187698016
 GameObject:
   m_ObjectHideFlags: 0
