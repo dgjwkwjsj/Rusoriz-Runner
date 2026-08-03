@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8559123592205221901}
-  - component: {fileID: 9000300227492461449}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -33,22 +32,6 @@ Transform:
   - {fileID: 2776016245687371364}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9000300227492461449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166044457469247155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0449d13e61a306f45826418dbc3581b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Section_Move
-  Current_speed: 1
-  acceleration: 0.1
-  max_speed: 100
-  moveDirection: {x: 0, y: 0, z: -1}
 --- !u!1 &997129113554082535
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,7 +7,8 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] private TMP_Text scoreText;
 
-    private int score;
+    private int score;  
+    public int Score => score;
 
     private void Awake()
     {
@@ -16,6 +17,7 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
+        score = PlayerPrefs.GetInt("hand", 0);
         UpdateScore();
     }
 
