@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1358399824128945591}
   m_Layer: 0
   m_Name: bush_1
-  m_TagString: Untagged
+  m_TagString: Destroyer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 2969077280099693127}
   m_Layer: 0
   m_Name: Obstacle_1
-  m_TagString: Untagged
+  m_TagString: Destroyer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
