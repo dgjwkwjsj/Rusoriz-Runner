@@ -6,6 +6,7 @@ public class Soldier : MonoBehaviour
     [SerializeField] private float speedClip = 0.5f;
     [SerializeField] private float acceleration = 0.1f;
     [SerializeField] private float timer = 2f;
+    [SerializeField] private float maxSpeed = 2f;
 
 
     private Animator animator;
@@ -24,6 +25,11 @@ public class Soldier : MonoBehaviour
         if(currentTime >= timer)
         {
             speedClip += acceleration;
+
+            if (speedClip > maxSpeed)
+            {
+                speedClip = maxSpeed;
+            }
             animator.speed = speedClip;
 
             currentTime = 0f;
