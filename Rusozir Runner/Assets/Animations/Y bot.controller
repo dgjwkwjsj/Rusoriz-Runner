@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -969419296156610722}
-    m_Position: {x: 330, y: 70, z: 0}
+    m_Position: {x: 310, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -30,7 +30,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Drunk Run Forward (2)
-  m_Speed: 1
+  m_Speed: 0.59
   m_CycleOffset: 1
   m_Transitions: []
   m_StateMachineBehaviours: []
