@@ -1,0 +1,30 @@
+[33m642e302[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add smoke & explosion assets; tweak soldier defaults
+[33maf7d8bd[m Add maxSpeed cap to Soldier movement
+[33md512008[m commit 28
+[33mad23ae3[m commit 27
+[33ma597d6f[m commit 26
+[33m89e71a9[m Add hand animations, update scene & render textures
+[33m6923998[m Update materials, prefabs, and scenes
+[33m663c6bf[m commit 23
+[33me9a07bf[m commit 22
+[33m723b2b8[m Add plant prefabs, materials, hand & score saving
+[33mf21f1cc[m commit 20
+[33mee1fff1[m commit 18
+[33m934480c[m commit 18
+[33m79ef3c1[m commit 17
+[33m72250cd[m Refactor scene: update movement params and add environment
+[33m73851ee[m Refactor obstacle movement and prefab organization
+[33md979f6f[m Update Section_Move properties and fix spawn randomization
+[33m3a29965[m commit 13
+[33m3f01e01[m Add obstacle destruction system and dynamic spawning
+[33madcdeab[m Reparent obstacles to container
+[33m36da68b[m commit 10
+[33m241546f[m Add Y Bot animation and FPV tilt movement
+[33m3610c59[m Add FPV drone assets and reorganize prefabs
+[33m9adc7a3[m Scene and Tag updates: add UI, camera, Destroyer
+[33mb64aa8d[m Refactor SectionTrigger with spawn prevention and Transform reference
+[33m37cab4c[m Add animator, prefabs, scene & gameplay scripts
+[33m3cb1008[m Add Remy running animation and update packages
+[33m8daffa7[m commit 1
+[33m5604edf[m Reorganize project into Rusozir Runner folder
+[33m21777d0[m Initial commit
