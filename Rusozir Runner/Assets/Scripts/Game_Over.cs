@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,14 +9,27 @@ public class Game_Over : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Destroyer"))
         {
-            Time.timeScale = 0f;
-            Debug.Log("Game Over");
+            StartCoroutine(GameOver());
+
             if (gameOverScreen != null)
             {
                 gameOverScreen.SetActive(true);
             }
         }
 
+    }
+    private IEnumerator GameOver()
+    {
+        Audio.instance.DeathSound();
+
+        yield return new WaitForSecondsRealtime(1f);
+
+        Time.timeScale = 0f;
+
+        Debug.Log("Game Over");
+
+
+        AudioListener.volume = 0f;
     }
 
 

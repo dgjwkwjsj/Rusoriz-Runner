@@ -10,6 +10,7 @@ public class Hand_Script : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Audio.instance.HandSound();
             ScoreManager.Instance.AddScore(1);
             PlayerPrefs.SetInt("hand", ScoreManager.Instance.Score);
             PlayerPrefs.Save();
