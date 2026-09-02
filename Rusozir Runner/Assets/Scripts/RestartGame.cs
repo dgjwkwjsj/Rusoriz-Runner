@@ -6,7 +6,6 @@ public class RestartGame : MonoBehaviour
     public void RestartCurrentScene()
     {
         Time.timeScale = 1f;
-        AudioListener.volume = 0.6f;
 
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 

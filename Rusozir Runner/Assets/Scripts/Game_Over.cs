@@ -24,12 +24,13 @@ public class Game_Over : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(1f);
 
+        Audio.instance.StopMusic();
+
         Time.timeScale = 0f;
 
         Debug.Log("Game Over");
 
 
-        AudioListener.volume = 0f;
     }
 
 

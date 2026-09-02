@@ -13,6 +13,9 @@ public class ScoreDistance : MonoBehaviour
     {
         highScore = PlayerPrefs.GetInt("HighScore", 0);
 
+        Debug.Log("scoreText: " + scoreText);
+        Debug.Log("highScoreText: " + highScoreText);
+
         highScoreText.text = highScore + "m";
         scoreText.text = "0m";
     }
